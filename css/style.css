@@ -22,8 +22,8 @@ ul li {
 .button-blue{
     background-color: #0060ff;
     color: white;
-    height: 1.5rem;
-    width: 3rem;
+    display: inline-block;
+    padding:0.3rem;
 }
 
 .logo-dropbox{
@@ -33,4 +33,22 @@ ul li {
 
 .nav-left{
     margin-left:0;
+}
+
+.jumbo{
+    background-color: #b4d0e7;
+}
+
+.jumbo-img{
+}
+
+.img-jumbo{
+}
+
+.abbonamenti{
+    border: solid black 2px;
+}
+
+.check-blue{
+    color: #0060ff;
 }

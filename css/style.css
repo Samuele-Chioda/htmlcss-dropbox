@@ -39,27 +39,45 @@ ul li {
     margin-left: 0;
     margin-right: 0;
     font-size: 5rem;
-    padding: 4rem;
+    padding: 2rem;
 }
 
 .colonne-jumbo{
     display: flex;
 }
 
+.colonne-jumbo p{
+    padding-bottom: 2rem;
+}
+
+div.paragrafo{
+    padding-top: 4rem;
+}
+
+.img-jumbo img{
+    max-width: 100%;
+    height: auto;
+    padding-top: 4rem;
+}
+
+.colonne-jumbo button{
+    margin-bottom: 2rem;
+}
+
 .img-jumbo{
     overflow: hidden;
 }
 
+.paragrafo .fa-arrow-down{
+    font-size: 5rem;
+
+}
 .abbonamenti{
     border: solid black 2px;
 }
 
 .check-blue{
     color: #0060ff;
-}
-
-.bg-azzurro{
-    background-color: #b4d0e7;
 }
 
 .black-footer{
@@ -82,10 +100,21 @@ div.paragrafo{
     margin-left: 8rem;
 }
 
+.cartelle-abbonamenti{
+    display: flex;
+    align-content: space-evenly;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+
 .cartella-abbonamenti{
     max-width: 20%;
     border: solid 1px black;
     text-align: center;
+    padding: 1rem;
+    margin: 0.5rem;
+    
 }
 
 .piano-buisness{
@@ -99,4 +128,118 @@ div.paragrafo{
     margin: 3rem;
     margin-left: 9rem;
     
+}
+
+.cartella-abbonamenti-finale{
+    text-align: center;
+    border: 1px solid black;
+    max-width: 80.8%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    text-align: left;
+    padding: 2rem;
+}
+
+.blocco-partner{
+    margin-top: 8rem;
+    display: flex;
+    padding: 1rem;
+    overflow: hidden;
+    padding-left: 14rem;
+}
+
+.img-partner img{
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+}
+
+.title-presentazioni{
+    margin-left: 5rem;
+    padding: 6rem;
+}
+
+.cartella-presentazioni{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blocco-partner h2{
+    padding: 4rem;
+    padding-bottom: 2rem;
+}
+
+.blocco-partner p{
+    padding-left: 4rem;
+    width: 50%;
+}
+
+.blocco-partner button{
+    margin-top: 2rem;
+    margin-left: 4rem;
+    padding: 0.5rem;
+}
+
+.ticket{
+    width: calc(33.33% - 20px);
+    margin: 3rem;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+.ticket img{
+    width: 100%;
+    height: auto;
+}
+
+.ticket h2{
+    margin: 2rem;
+}
+
+.titoletto-sotto-cartella-presentazioni{
+    padding-left: 20rem;
+}
+
+/* ricordare la virgola e gli spazi per i selettori come questo ! */
+.titoletto-sotto-cartella-presentazioni p , h2{ 
+    padding-bottom: 2rem;
+}
+
+.loghi{
+    display: grid;
+    grid-template-columns: repeat(5, 2fr);
+    grid-template-rows: repeat(2, 1fr);
+
+}
+
+.logo-singolo img{
+    width: 100%;
+    height: 150px;
+}
+
+.bg-red{
+    background-color: #61082b;
+}
+
+.bg-green{
+    background-color: #a2d39b;
+}
+
+.bg-lightblue{
+    background-color: #0093ce;
+}
+
+.bg-strong-red{
+    background-color: #ff1c1c;
+}
+
+.bg-azzurro{
+    background-color: #b4d0e7;
+    display:flex;
+    justify-content: center;
+    padding: 5rem;
+}
+
+.bg-azzurro button{
+    padding:1rem;
 }

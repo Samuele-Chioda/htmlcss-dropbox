@@ -52,3 +52,16 @@ ul li {
 .check-blue{
     color: #0060ff;
 }
+
+.bg-azzurro{
+    background-color: #b4d0e7;
+}
+
+.black-footer{
+    background-color: black;
+    color: white;
+}
+
+h2.color-red{
+    color: #69213d;
+}

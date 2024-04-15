@@ -9,7 +9,6 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 1.2rem;
-    border-bottom: solid 5px black;
 }
 
 ul li {
@@ -31,18 +30,24 @@ ul li {
     align-items: center;
 }
 
-.nav-left{
-    margin-left:0;
-}
-
 .jumbo{
     background-color: #b4d0e7;
 }
 
-.jumbo-img{
+.first-h1{
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 5rem;
+    padding: 4rem;
+}
+
+.colonne-jumbo{
+    display: flex;
 }
 
 .img-jumbo{
+    overflow: hidden;
 }
 
 .abbonamenti{
@@ -64,4 +69,34 @@ ul li {
 
 h2.color-red{
     color: #69213d;
+}
+
+article.jumbo-article{
+    text-align: center;
+}
+
+
+div.paragrafo{
+    text-align: left;
+    width: 25%;
+    margin-left: 8rem;
+}
+
+.cartella-abbonamenti{
+    max-width: 20%;
+    border: solid 1px black;
+    text-align: center;
+}
+
+.piano-buisness{
+    margin-left: 8rem;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+.button-fatturazioni{
+    margin: 3rem;
+    margin-left: 9rem;
+    
 }

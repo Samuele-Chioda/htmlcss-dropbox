@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem;
+    border-bottom: solid 5px black;
+}
+
+ul li {
+    display: inline;
+    list-style: none;
+    justify-content: space-around;
+    margin-right: 20px;
+}
+
+.button-blue{
+    background-color: #0060ff;
+    color: white;
+    height: 1.5rem;
+    width: 3rem;
+}
+
+.logo-dropbox{
+    display: flex;
+    align-items: center;
+}
+
+.nav-left{
+    margin-left:0;
+}

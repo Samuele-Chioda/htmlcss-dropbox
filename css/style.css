@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: white;
+}
 
 header{
     display: flex;
@@ -18,11 +21,12 @@ ul li {
     margin-right: 20px;
 }
 
+
 .button-blue{
     background-color: #0060ff;
     color: white;
     display: inline-block;
-    padding:0.3rem;
+    padding:0.5rem;
 }
 
 .logo-dropbox{
@@ -68,8 +72,10 @@ div.paragrafo{
     overflow: hidden;
 }
 
-.paragrafo .fa-arrow-down{
-    font-size: 5rem;
+.fa-arrow-down{
+    font-size: 4rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
 
 }
 .abbonamenti{
@@ -87,6 +93,7 @@ div.paragrafo{
 
 h2.color-red{
     color: #69213d;
+    margin-right: 10rem;
 }
 
 article.jumbo-article{
@@ -110,11 +117,21 @@ div.paragrafo{
 
 .cartella-abbonamenti{
     max-width: 20%;
-    border: solid 1px black;
+    border: solid 2px ;
     text-align: center;
-    padding: 1rem;
     margin: 0.5rem;
-    
+    border: 2px solid #d0d0d3;
+}
+
+.cartella-abbonamenti > p{
+    padding:1rem;
+}
+.cartella-abbonamenti > h3{
+    padding-top: 2rem;
+}
+.cartelle-abbonamenti ul > li{
+    padding-top:2rem;
+
 }
 
 .piano-buisness{
@@ -124,20 +141,41 @@ div.paragrafo{
     font-size: 1.5rem;
 }
 
-.button-fatturazioni{
+div.button-fatturazioni{
     margin: 3rem;
     margin-left: 9rem;
-    
+    padding-right: 1rem;
+}
+
+label{
+    padding-right: 2rem;
 }
 
 .cartella-abbonamenti-finale{
     text-align: center;
-    border: 1px solid black;
-    max-width: 80.8%;
+    border: 2px solid #d0d0d3;    max-width: 80.8%;
     margin: 0 auto;
     margin-top: 2rem;
     text-align: left;
-    padding: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.cartella-abbonamenti-finale > h3{
+    order:0;
+}
+.cartella-abbonamenti-finale > button{
+    align-self: flex-end;}
+
+.cartella-abbonamenti-finale .solid-user{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.cartella-abbonamenti-finale h4,p,h3{
+    padding: 1rem;
 }
 
 .blocco-partner{
@@ -157,6 +195,7 @@ div.paragrafo{
 .title-presentazioni{
     margin-left: 5rem;
     padding: 6rem;
+    text-align: center;
 }
 
 .cartella-presentazioni{
@@ -198,6 +237,8 @@ div.paragrafo{
 
 .titoletto-sotto-cartella-presentazioni{
     padding-left: 20rem;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
 }
 
 /* ricordare la virgola e gli spazi per i selettori come questo ! */
@@ -206,10 +247,14 @@ div.paragrafo{
 }
 
 .loghi{
-    display: grid;
+    display:flex;
     grid-template-columns: repeat(5, 2fr);
     grid-template-rows: repeat(2, 1fr);
+}
 
+.logo-grande{
+    text-align:center;
+    background-color: #f5f5f5;
 }
 
 .logo-singolo img{
@@ -241,5 +286,55 @@ div.paragrafo{
 }
 
 .bg-azzurro button{
-    padding:1rem;
+    padding:0.5rem;
+}
+
+.domande-frequenti{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+.domande-frequenti h2{
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+}
+.domande-frequenti p{
+    padding: 2rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border-top: 2px solid #d0d0d3;
+}
+
+.domande-frequenti i{
+    margin-left: 20rem;
+}
+
+/* .footer-list li{
+    margin-bottom: 10px;
+} selezioni solo gli li nel div classe footer-listi */
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+    width: calc(20% - 2px);
+    padding: 1rem;
+}
+
+.black-footer{
+    display: flex;
+    padding: 4rem;
+    padding-left: 8rem;
+    padding-right:8rem;
+}
+
+footer ul li{
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+footer ul li:first-child{
+    margin-bottom: 2rem;
+    font-size: 2rem;
 }

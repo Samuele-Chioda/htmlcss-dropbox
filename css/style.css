@@ -192,14 +192,16 @@ label{
 }
 
 .title-presentazioni{
-    margin-left: 5rem;
+    margin-left: 10rem;
     padding: 6rem;
-    text-align: center;
+    text-align: left;
 }
 
 .cartella-presentazioni{
     display: flex;
     justify-content: space-between;
+    max-width: 65%;
+    margin: 0 auto;
 }
 
 .blocco-partner h2{
@@ -220,8 +222,6 @@ label{
 
 .ticket{
     width: calc(33.33% - 20px);
-    margin: 3rem;
-    padding: 2rem;
     flex-wrap: wrap;
 }
 
@@ -230,12 +230,8 @@ label{
     height: auto;
 }
 
-.ticket h2{
-    margin: 2rem;
-}
-
 .titoletto-sotto-cartella-presentazioni{
-    padding-left: 20rem;
+    padding-left: 15rem;
     padding-top: 5rem;
     padding-bottom: 4rem;
 }

@@ -16,6 +16,10 @@ header{
     padding: 1.2rem;
 }
 
+header ul li{
+    color:grey;
+}
+
 ul li {
     display: inline;
     list-style: none;
@@ -27,8 +31,12 @@ ul li {
 .button-blue{
     background-color: #0060ff;
     color: white;
-    display: inline-block;
     padding:0.5rem;
+    margin-left:1rem;
+}
+
+.button-blue_header{
+    margin-left:1rem;
 }
 
 .logo-dropbox{
@@ -51,6 +59,9 @@ ul li {
 
 .colonne-jumbo{
     display: flex;
+    max-width: 69%;
+    margin: 0 auto;
+
 }
 
 .colonne-jumbo p{
@@ -82,8 +93,9 @@ div.paragrafo{
 
     /* da qui cominciano le cartelle degli abbonamenti */
 }
-.abbonamenti{
-    border: solid black 2px;
+
+.cartelle-abbonamenti button{
+    margin:2rem;
 }
 
 .check-blue{
@@ -101,35 +113,37 @@ article.jumbo-article{
 
 div.paragrafo{
     text-align: left;
-    width: 25%;
-    margin-left: 8rem;
+    max-width: 30%;
 }
 
 .cartelle-abbonamenti{
     display: flex;
-    align-content: space-evenly;
     justify-content: center;
-    justify-content: space-evenly;
-
 }
 
 .cartella-abbonamenti{
     max-width: 20%;
     border: solid 2px ;
-    text-align: center;
-    margin: 0.5rem;
+    text-align: left;
+    margin: 1.5rem;
     border: 2px solid #d0d0d3;
+    padding:1rem;
 }
 
 .cartella-abbonamenti > p{
-    padding:1rem;
+    padding:0.5rem;
+    text-align: left;
 }
 .cartella-abbonamenti > h3{
     padding-top: 2rem;
+    padding: 0.5rem;
 }
 .cartelle-abbonamenti ul > li{
     padding-top:2rem;
+}
 
+.cartella-abbonamenti p:first-child{
+    text-align: center;
 }
 
 .piano-buisness{
@@ -137,12 +151,14 @@ div.paragrafo{
     margin-top: 6rem;
     margin-bottom: 2rem;
     font-size: 1.5rem;
+    padding-left: 5rem;
 }
 
 div.button-fatturazioni{
     margin: 3rem;
     margin-left: 9rem;
     padding-right: 1rem;
+    padding-left: 5rem;
 }
 
 label{
@@ -150,8 +166,8 @@ label{
 }
 
 .cartella-abbonamenti-finale{
-    text-align: center;
-    border: 2px solid #d0d0d3;    max-width: 80.8%;
+    text-align: left;
+    border: 2px solid #d0d0d3;  
     margin: 0 auto;
     margin-top: 2rem;
     text-align: left;
@@ -159,6 +175,7 @@ label{
     padding-right: 2rem;
     display: flex;
     flex-direction: column;
+    max-width: 67%;
 }
 
 .cartella-abbonamenti-finale > h3{
@@ -167,8 +184,9 @@ label{
 .cartella-abbonamenti-finale > button{
     align-self: flex-end;}
 
-.cartella-abbonamenti-finale .solid-user{
+.fa-solid{
     text-align: center;
+    padding-bottom: 1rem;
     padding-bottom: 1rem;
 }
 
@@ -221,8 +239,11 @@ label{
 }
 
 .ticket{
-    width: calc(33.33% - 20px);
     flex-wrap: wrap;
+}
+
+.ticket p{
+    font-size: 0.9rem;
 }
 
 .ticket img{
@@ -277,7 +298,7 @@ label{
 .logo-singolo img{
     width: 100%;
     filter: invert(100%);
-}
+} 
 
 .bg-red{
     background-color: #61082b;
@@ -363,6 +384,12 @@ label{
     padding-right:8rem;
     background-color: black;
     color: white;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+footer{
+    background-color: black;
 }
 
 footer ul li{

@@ -35,10 +35,6 @@ ul li {
     margin-left:1rem;
 }
 
-.button-blue_header{
-    margin-left:1rem;
-}
-
 .logo-dropbox{
     display: flex;
     align-items: center;
@@ -146,6 +142,13 @@ div.paragrafo{
     text-align: center;
 }
 
+article li{
+    text-align: left;
+}
+article ul{
+    padding-top: 4rem;
+    text-align: left;
+}
 .piano-buisness{
     margin-left: 8rem;
     margin-top: 6rem;
@@ -186,8 +189,6 @@ label{
 
 .fa-solid{
     text-align: center;
-    padding-bottom: 1rem;
-    padding-bottom: 1rem;
 }
 
 .cartella-abbonamenti-finale h4,p,h3{
@@ -201,6 +202,11 @@ label{
     padding: 1rem;
     overflow: hidden;
     padding-left: 14rem;
+}
+
+.p-font-size{
+    font-size: 0.9rem;
+
 }
 
 .img-partner img{
@@ -229,7 +235,7 @@ label{
 
 .blocco-partner p{
     padding-left: 4rem;
-    width: 50%;
+    width: 65%;
 }
 
 .blocco-partner button{
@@ -285,6 +291,7 @@ label{
     background-color: #f5f5f5;
     text-align: inherit;
     padding: 2rem;
+    max-width: 35%;
 }
 
 .logo-singolo{
@@ -335,8 +342,13 @@ label{
 .bg-azzurro{
     background-color: #b4d0e7;
     display:flex;
-    justify-content: center;
     padding: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+h2.color-red{
+    padding-right: 20%;
 }
 
 .bg-azzurro button{

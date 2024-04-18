@@ -40,7 +40,7 @@ ul li {
     align-items: center;
 }
 
-/* da qui comincia il main */
+/* da qui comincia il main parte jumbo */
 .jumbo{
     background-color: #b4d0e7;
 }
@@ -196,6 +196,7 @@ label{
 }
 
 /* da qui comincia l'immagine dei partner */
+
 .blocco-partner{
     margin-top: 8rem;
     display: flex;
@@ -206,7 +207,6 @@ label{
 
 .p-font-size{
     font-size: 0.9rem;
-
 }
 
 .img-partner img{
@@ -244,6 +244,8 @@ label{
     padding: 0.5rem;
 }
 
+/* da qui comincia la parte dedicata ai ticket */
+
 .ticket{
     flex-wrap: wrap;
 }
@@ -264,10 +266,13 @@ label{
 }
 
 /* ricordare la virgola e gli spazi per i selettori come questo ! */
+
 .titoletto-sotto-cartella-presentazioni p , h2{ 
     padding-bottom: 2rem;
     padding-left: 1rem;
 }
+
+/* da qui comioncia la parte dei loghi partner */
 
 .loghi{
     display:flex;
@@ -356,6 +361,7 @@ h2.color-red{
 }
 
 /* da qui comincia la parte domande frequenti */
+
 .domande-frequenti{
     padding-top: 6rem;
     padding-bottom: 6rem;
@@ -377,10 +383,15 @@ h2.color-red{
     margin-left: 20rem;
 }
 
+.color-grey{
+    color: #d0d0d3;
+}
+
 /* .footer-list li{
 } selezioni solo gli li nel div classe footer-listi */
 
 /* da qui comincia il footer */
+
 .footer-list{
     display: flex;
     flex-direction: column;
@@ -413,3 +424,10 @@ footer ul li:first-child{
     margin-bottom: 2rem;
     font-size: 2rem;
 }
+
+.lingua{
+    color: #999999;
+    margin-left:8rem;
+    margin-left: 12rem;
+}
+
